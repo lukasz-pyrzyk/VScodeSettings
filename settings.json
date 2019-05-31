@@ -1,0 +1,18 @@
+{
+    "git.autofetch": true,
+    "search.location": "panel",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.envFile": "${workspaceFolder}/.ci/.env",
+    "python.linting.enabled": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Args": [
+        "--ignore=E501" // disable line-to-long
+    ],
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "python.formatting.autopep8Args": [
+        "--ignore=E501" // disable line-to-long
+    ]
+}
