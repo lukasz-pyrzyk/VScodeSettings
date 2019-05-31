@@ -14,5 +14,6 @@
     "editor.formatOnSave": true,
     "python.formatting.autopep8Args": [
         "--ignore=E501" // disable line-to-long
-    ]
+    ],
+    "python.jediEnabled": false
 }
